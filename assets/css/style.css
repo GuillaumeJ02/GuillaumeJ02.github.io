@@ -1,0 +1,54 @@
+header{
+  background-color: #BCBABE;
+  width: 100%;
+  height: 150px;
+}
+
+.photo{
+  float: right;
+  width: 35%;
+height: 80px;
+}
+.lien{
+  width: 65%;
+  height: 80px;
+  float: right;
+}
+.contenu{
+  width: 100%;
+  height: 300px;
+  background-color: #F1F1F2;
+  float: left;
+  text-align: center;
+}
+footer{
+  background-color: #BCBABE;
+  width: 100%;
+  height: 125px;
+  float: left;
+}
+
+.contenuComp{
+  width: 100%;
+  height: 425px;
+  background-color: #F1F1F2;
+  text-align:center;
+  float: left;
+}
+div{
+  float: left;
+}
+.projects{
+  clear: left;
+}
+.compList{
+    column-count: 5;
+    list-style-type: square;
+}
+.formation{
+  text-align: center;
+  width: 100%;
+  height: 280px;
+  background-color: #F1F1F2;
+  float: left;
+}
