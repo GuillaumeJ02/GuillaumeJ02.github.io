@@ -25,55 +25,33 @@ footer{
 nav{
   float: left;
 }
-#profilPage, #profilPage ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-#profilPage{
-  text-align: left;
-  float: left;
-  padding: 40px;
-}
-#profilPage a {
-    text-decoration: none;
-    display: block;
-	color:#000;
-}
-#profilPage ul {
-    position: absolute;
-    left: -999em;
-    text-align: left;
-    z-index: 1000;
-    border: 1px solid grey;
-}
-#profilPage li:hover ul {
-    left: auto;
-  }
-#formationPage, #formationPage ul{
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-#formationPage{
-  text-align: center;
-  float: left;
-  padding: 40px;
-}
-#formationPage a{
-  text-decoration: none;
-  display: block;
-  color: #000;
-}
-#formationPage ul{
-  position: absolute;
-  left: -999em;
-  text-align: left;
-  z-index: 1000;
-}
-#formationPage li:hover ul{
-  left: auto;
-}
 .generalProfil{
   float: left;
+  width: 100px;
+  margin: 50px;
+  padding: 0;
+}
+.generalProfil ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: none;
+  background-color: #24AAC7;
+}
+.generalProfil li{
+  position: relative;
+}
+.generalProfil a{
+  display: block;
+  width: 800px;
+  height: 200px;
+  padding: 3px 10px;
+  text-align: center;
+}
+.generalProfil li:hover ul{
+  display: block;
+  position: absolute;
+  left: 100px;
+  z-index: 10;
+  top: 0px;
 }
