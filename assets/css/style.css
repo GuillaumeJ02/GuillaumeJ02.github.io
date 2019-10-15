@@ -1,97 +1,12 @@
-header{
-  background-color: #24AAC7;
-  background-image: linear-gradient(#2F2F2D, #24AAC7);
-  width: 100%;
-  height: 150px;
-}
-.photo{
-  float: left;
-  width: 35%;
-height: 80px;
-}
-.center{
-  width: 100%;
-  height: 1000px;
-  background-color: #ADADAD;
-  background-image: linear-gradient(90deg, #2f2f2d, #ADADAD);
-  float: left;
-  text-align: center;
-}
-footer{
-  background-color: #24AAC7;
-  background-image: linear-gradient(#24AAC7, #2F2F2D);
-  width: 100%;
-  height: 125px;
-  float: left;
-}
-nav{
-  float: left;
-}
-.generalProfil{
-  float: left;
-  width: 100px;
-  margin: 50px;
-  padding: 0;
-}
-.generalProfil ul{
+#listCompt{
   list-style: none;
-  margin: 0;
-  padding: 0;
-  display: none;
-  background-color: #ADADAD;
-  z-index: 2;
 }
-.generalProfil li{
-  position: relative;
+.progress{
+  height: 20px;
 }
-.generalProfil a{
-  display: block;
-  width: 800px;
-  height: 200px;
-  padding: 3px 10px;
-  text-align: center;
+.hobbiesPhoto badge{
+ font-size: 150%;
 }
-.generalProfil li:hover ul{
-  display: block;
-  position: absolute;
-  left: 100px;
-  z-index: 10;
-  top: 0px;
-}
-.principalName{
-  animation: inherit;
-}
-.principalTitle{
-  color: hsl(324, 70%, 45%);
-  animation: wheelHueColor 10s infinite;
-  background-color: currentColor;
-}
-@@supports (background-blend-mode: overlay) {
-  .principalTitle{
-    background-image: linear-gradient(45deg, white 10%, black 90%);
-    background-blend-mode: overlay;
-  }
-}
-@keyframes wheelHueColor {
-  from, to { color: hsl(324, 70%, 45%); }
-  10%      { color: hsl(360, 65%, 45%); }
-  20%      { color: hsl( 36, 80%, 45%); }
-  30%      { color: hsl( 72, 75%, 35%); }
-  40%      { color: hsl(108, 65%, 35%); }
-  50%      { color: hsl(144, 75%, 35%); }
-  60%      { color: hsl(180, 75%, 35%); }
-  70%      { color: hsl(216, 60%, 45%); }
-  80%      { color: hsl(252, 65%, 50%); }
-  90%      { color: hsl(288, 60%, 40%); }
-}
-* { margin: 0; padding: 0; }
-.principalTitle{
-  min-height: 25px;
-  width: 0;
-  display: flex;
-}
-.principalName{
-  margin: left;
-  background: rgba(0, 0, 0, 0.75);
-  padding: 1em;
+#photoCarousel{
+  height: 184px;
 }
